@@ -1,6 +1,4 @@
 <script>
-import { OLSKLocalized } from 'OLSKInternational';
-
 import ROCORootLink from './node_modules/ROCORootLink/main.svelte';
 import OLSKLanguageSwitcher from './node_modules/OLSKLanguageSwitcher/main.svelte';
 </script>
@@ -9,7 +7,7 @@ import OLSKLanguageSwitcher from './node_modules/OLSKLanguageSwitcher/main.svelt
 
 <ROCORootLink />
 
-<h1>{ OLSKLocalized('RCSIdiomaticTitle') }</h1>
+<h1>Idiomatic</h1>
 
 <OLSKLanguageSwitcher OLSKSharedActiveRouteConstant={ window.OLSKPublicConstants('OLSKSharedActiveRouteConstant') }
 	OLSKSharedPageLanguagesAvailable={ window.OLSKPublicConstants('OLSKSharedPageLanguagesAvailable') }
